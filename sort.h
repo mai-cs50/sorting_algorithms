@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <tine.h>
+#include <time.h>
 
 /**
  * struct listint_s - Doubly linked list node
