@@ -63,7 +63,8 @@ void quicksort(int *array, size_t size, ssize_t lo, ssize_t hi)
  * @size: array size
  *
  * Return: void
-*/void quick_sort(int *array, size_t size)
+*/
+void quick_sort(int *array, size_t size)
 {
 	if (!array || !size)
 		return;
