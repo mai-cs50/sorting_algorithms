@@ -39,10 +39,13 @@ size_t lomuto_partition(int array, size_t size, ssize_t lo, ssize_t hi)
 	return (i);
 }
 /**
+ * quicksort - quicksort
+ * @array: the intger array to sort
+ * @size: array size
+ * @lo: the low index of the sort range
+ * @hi: the high index of the sort range
  *
- *
- *
- *
+ * Return: void
 */
 void quicksort(int *array, size_t size, ssize_t lo, ssize_t hi)
 {
@@ -55,10 +58,11 @@ void quicksort(int *array, size_t size, ssize_t lo, ssize_t hi)
 	}
 }
 /**
+ * quick_sort - quick_sort
+ * @array: the intger array to sort
+ * @size: array size
  *
- *
- *
- *
+ * Return: void
 */void quick_sort(int *array, size_t size)
 {
 	if (!array || !size)
